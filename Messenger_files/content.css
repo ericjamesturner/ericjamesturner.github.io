@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+}
+
+.column {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#left {
+    flex-shrink: 0;
+}
+
+#right {
+    width: 100%;
+}
+
+.top-left {
+    flex-shrink: 0;
+    display: inline-flex;
+    padding: 13px;
+    font-size: 25px;
+    font-weight: 700;
+    background: #e4f5fd;
+    display: inline-flex;
+    border-bottom: 1px solid;
+    border-color: #002bff38;
+}
+
+.top-right {
+    flex-shrink: 0;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 700;
+    color: #00529B;
+    background: #e4f5fd;
+    padding: 13px;
+    margin: -1px;
+    border-image-source: linear-gradient(to left, #ffffff, #002bff38);
+    border-bottom: 1px solid;
+    border-image-slice: 1;
+    z-index: 200;
+}
+
+.bottom-left {
+    flex-grow: 1;
+    overflow-y: auto;
+    color: white;
+    background: #e4f5fd;
+    padding: 10px;
+    border-image-source: linear-gradient(#002bff38, #ffffff);
+    border-right: 1px solid;
+    border-image-slice: 1;
+}
+
+.bottom-right {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.ui-progressbar-value {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    padding-left: 10px;
+}
+
+.progress-label {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+    top: 18%;
+}
+
+div.modal-footer.spaced {
+    justify-content: space-between;
+}
+
+div.buy-me-coffee {
+    float: left;
+    zoom: 70% !important;
+}
+
+div.buy-me-coffee.logo {
+    display: contents;
+}
+
+div.stat-icon-card {
+    position: absolute;
+    top: -20px;
+    border-radius: 50%;
+}
+
+div#messages-container {
+    padding: 25px;
+}
+
+div.message-container {
+    font-size: 12px!important;
+    padding: 0 5px 0 5px;
+    max-width: 70%;
+    display: grid;
+}
+
+div.right-side {
+    color: white;
+}
+
+pre.messages {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 15px;
+    margin-bottom: 0;
+    white-space: pre-wrap;
+}
+
+span.timestamp-tooltip {
+    font-size: 9px;
+    font-style: italic;
+}
